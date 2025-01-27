@@ -1,27 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yogesh Kadam - ITMD 542 Lab 1</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yogesh Kadam - ITMD 442/542 Lab 1</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
-<header>
+<body>
+  <header>
     <nav class="navbar">
       <ul class="menu">
         <li><a href="#about">About Me</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Work Experience</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <h1>Welcome to My Lab 1 Page</h1>
-    <p>Created for ITMD 442/542</p>
   </header>
-<body>
-    
+  
+  <main>
+    <!-- About Section -->
+    <section id="about" class="card">
+      <div class="about-content">
+        <div class="text-content">
+          <h2>About Me</h2>
+          <p>Hi, I'm <strong>Yogesh Kadam</strong>, a graduate student at Illinois Institute of Technology, Chicago, specializing in Information Technology and Management with a focus on web design and application development. I am passionate about cloud computing, Python programming, and crafting visually engaging web applications.</p>
+        </div>
+        <div class="profile-pic-container">
+          <img src="IMG_20231014_133451.jpg" alt="Yogesh Kadam" class="profile-pic">
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Illinois Institute of Technology</strong>, Chicago, IL (Aug 2024 - May 2026)<br>M.S. in Information Technology & Management</li>
+        <li><strong>MIT ADT University</strong>, Pune, India (Jan 2020 - Oct 2023)<br>Bachelor of Technology in Computer Science & Engineering</li>
+      </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+      <h3>Web Developer Intern</h3>
+      <p><strong>Abhyaz, Chennai, India</strong> (Jan 2024 - Apr 2024)</p>
+      <ul>
+        <li>Developed responsive websites using HTML, CSS, and JavaScript.</li>
+        <li>Implemented Zoho SalesIQ for chatbot functionality, improving engagement by 30%.</li>
+        <li>Enhanced user experience, boosting website traffic by 20%.</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-box">
+          <a href="https://travelwithghumakkad.netlify.app/" target="_blank">
+            <img src="ghumakkad.png" alt="Ghumakad" class="project-logo">
+            <h3>Ghumakad Traveling Website</h3>
+            <p>Dynamic travel website using React, HTML, CSS, and JavaScript.</p>
+            <button class="project-btn">View Project</button>
+          </a>
+        </div>
+        <div class="project-box">
+          <a href="https://yogeshkadam-portfolio.netlify.app/" target="_blank">
+            <img src="porfolio.png" alt="Portfolio" class="project-logo">
+            <h3>Portfolio Website</h3>
+            <p>Professional portfolio using HTML, CSS, and Tailwind CSS.</p>
+            <button class="project-btn">View Project</button>
+          </a>
+        </div>
+        <div class="project-box">
+          <h3>Semantic Enrichment for Text Summarization</h3>
+          <p>Developed an AI-based text summarization project focused on biomedical texts. Utilized UMLS Metathesaurus, SNOMED CT, and Metamap to enhance semantic understanding. Built a Python-based data extraction and analysis pipeline to improve summary accuracy and relevance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-box"><i class="fab fa-html5 skill-logo"></i><p>HTML</p></div>
+        <div class="skill-box"><i class="fab fa-css3-alt skill-logo"></i><p>CSS</p></div>
+        <div class="skill-box"><i class="fab fa-js skill-logo"></i><p>JavaScript</p></div>
+        <div class="skill-box"><i class="fab fa-react skill-logo"></i><p>React.js</p></div>
+        <div class="skill-box"><i class="fab fa-python skill-logo"></i><p>Python</p></div>
+        <div class="skill-box"><i class="fab fa-node skill-logo"></i><p>Node.js</p></div>
+        <div class="skill-box"><i class="fas fa-database skill-logo"></i><p>SQL</p></div>
+        <div class="skill-box"><i class="fab fa-github skill-logo"></i><p>Git</p></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ykadam1@hawk.iit.edu">ykadam1@hawk.iit.edu</a></p>
+      <p>Phone: +1 (312) 978 9696</p>
+      <p>To Connect:  <a href="https://www.linkedin.com/in/yogi006" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Ykadam006" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:ykadam1@hawk.iit.edu"><i class="fas fa-envelope"></i></a></p>
+    </section>
+  </main>
+
+ 
+    <footer>
+      <p>&copy; 2025 Yogesh Kadam. All Rights Reserved. <br> 
+     This website was built with caffeine and an unhealthy number of late-night debugging sessions!</p>
+    </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
